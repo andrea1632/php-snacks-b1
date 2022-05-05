@@ -46,7 +46,7 @@ $matches = [
         <?php
         for($i = 0; $i < count($matches); $i++){
             echo $matches[$i]['team1'] . " - " . $matches[$i]['team2'] . "|" . "<br>";
-            echo $matches[$i]['point_team_1'];
+            echo $matches[$i]['point_team_1'] . "-";
             echo $matches[$i]['point_team_2'] . "<br>";
         }
         ?>
